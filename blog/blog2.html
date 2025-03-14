@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="../assets/img/favicon.ico" type="image/png">
+
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="../assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <style>
+        /*=============== BLOG ===============*/
+        .blog {
+            padding: 4.5rem 0 2.5rem;
+        }
+
+        .blog__details {
+            margin-bottom: 2rem;
+        }
+
+        .blog__image {
+            margin-bottom: 2rem;
+        }
+
+        .blog__image img {
+            width: 100%;
+            height: auto;
+            border-radius: 0.5rem;
+            transition: transform 0.3s ease, filter 0.3s ease;
+        }
+
+        .blog__image img:hover {
+            transform: scale(1.05);
+            filter: brightness(0.8);
+        }
+
+        .blog__more-images {
+            margin-top: 2rem;
+        }
+
+        .blog__image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+
+        .blog__image-grid img {
+            width: 100%;
+            height: auto;
+            border-radius: 0.5rem;
+            transition: transform 0.3s ease, filter 0.3s ease;
+        }
+
+        .blog__image-grid img:hover {
+            transform: scale(1.05);
+            filter: brightness(0.8);
+        }
+    </style>
+
+    <title>Blog Details - BhromonGhuri</title>
+</head>
+
+<body>
+    <header class="header scroll-header" id="header">
+        <nav class="nav container">
+            <a href="../index.html" class="nav__logo">
+                <img src="../assets/img/bglogo.png" alt="BhromonGhuri Logo">
+                <span>BhromonGhuri <br>
+                    <h5>Tours and Travel</h5>
+                </span>
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="../index.html" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="blog.html" class="nav__link active-link">Blog</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="../team.html" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#discover" class="nav__link">Discover</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#place" class="nav__link">Places</a>
+                    </li>
+                </ul>
+                <!-- Theme change button
+                <div class="nav__dark">
+
+                    <span class="change-theme-name">Dark mode</span>
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+                </div> -->
+
+                <i class="ri-close-line nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-function-line"></i>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <!--==================== BLOG DETAILS ====================-->
+        <section class="blog section" id="blog">
+            <div class="container">
+                <h2 class="section__title">২০০০ টাকায় কক্সবাজারে ৩ দিন</h2>
+                <div class="blog__details">
+                    <div class="blog__image">
+                        <img src="../assets/img/blog2.jpg" alt="Blog Image">
+                    </div>
+                    <P>Initial plan ছিলো কুয়াকাটার। কয়েক দফা decision change এর পর অবশেষে সবাই মিলে সিদ্ধান্ত নেই
+                        কক্সবাজার যাওয়ার। তো একে একে গ্রুপে যুক্ত হয় আহাদ, শুভ্র আর পরে যুক্ত হয় ফাহিম আর নাইমুর... তো ৬
+                        জন মিলে যাত্রা শুরু... [প্রথমে শিতাকুন্ড যাওয়ার কথা থাকলেও অনিবার্য কারণ বশত সেটা বাতিল করতে
+                        হয়েছিলো 🥺] ঢাকা টু চিটাগাং মেইল এক্সপ্রেসে করে আমরা চিটাগাং এর উদ্যেশ্যে যাত্রা শুরু করি ৩
+                        তারিখ রাত ১০:৪৫ এ...(১৫ মিনিট late 😑) এবং চিটাগাং পৌছাই সকাল ৭:৩৮ টায়... সারা রাত ট্রেইনে chill
+                        করতে করতে কখন সময় কেটে গেছে কেউ টেরই পাইনি 😎
+                    </P>
+                    <P>তো সকালে ট্রেইন থেকে নেমে আমরা বাসে করে চিটাগাং নতুন বাজার আসি এবং সেখানে নাস্তা করে বাসে উঠে
+                        <br>
+                    <p><br>
+                        <strong>>>Day 1 (4/10/2020) : </strong>
+
+
+                        তো সকালে ট্রেইন থেকে নেমে আমরা বাসে করে চিটাগাং নতুন বাজার আসি এবং সেখানে নাস্তা করে বাসে উঠে
+                        পড়ি কক্সবাজারের উদ্দ্যেশ্যে। সেখানেও late করলো!! আমরা হানিফ লেখা দেখে ভুল করে উঠি! কিন্তু পরে
+                        দেখি লোকাল বাস!
+                    </p>
+                    <br>
+                    (Lesson 1 : শুধু নাম আর লোগো আর ব্যাবহার করলেই আসল হয় না 😪)
+                    <p>
+                        তো যাই হোক ৩ ঘন্টার রাস্তা ৪ ঘন্টা লাগিয়ে কক্সবাজারে পৌছাই দুপুর ১:৩০ টায়... সেখানে নেমেই প্রথম
+                        কাজ যেটা সেটা হচ্ছে হোটেল খোজা.... তো ট্রেইনেই ৫ জনের আরেক গ্রুপের সাথে পরিচয় হওয়াতে ১১ জন মিলে
+                        হোটেল জামানে উঠি ২ দিনের জন্য... ওদের গ্রুপ একটি ফ্ল্যাট আর আমাদের গ্রুপ আরেকটিতে উঠি... মানুষ
+                        বেশি ছিলো বলে per person খরচ অনেকটা কমে গিয়েছিলো 😂
+                    </p>
+                    <br>
+
+                    (Lesson 2 : মানুষ যত বেশি, খরচ ততো কম 😛)
+
+                    হোটেলে উঠে হালকা ফ্রেশ হয়েই বীচে চলে যাই... টানা ১৪ ঘন্টা journey করার পর সমুদ্রের পানিতে পা
+                    ভিজাতেই সব ক্লান্তি সমুদ্রে ভেসে গেলো 😌 ১ ঘন্টা লবন পানি আর বালি খেয়ে (🤧) উঠে ফ্রেশ হয়ে চলে
+                    যাই লাঞ্চ করতে... লাঞ্চ করে কিছুক্ষণ ঘুরাঘুরি করে হোটেলে এসে উনো কার্ড খেলা শিখলাম(আগে পারতামনা
+                    😪) উনো খেলতে খেলতে রাত ১০ টা বেজে গেছে কিভাবে বুঝলামনা 😄 তো যাইহোক ডিনার শেষ করে সুগন্ধা বীচের
+                    দিকে যাই... সেখানে অনেক্ষণ চীল করে রাতে ৩ টার দিকে ঘুম দেই... 😪 এর মধ্যে ঘটে গেলো horror ঘটনা।
+                    যাই হক তা বাদ দেই🥺🥺🥺😅 তো day 1 এর এই অবধি experience ভালোই ছিলো!
+                    </p><br>
+
+                    <P>
+
+
+                        >> Day 2 (5/10/2020) :
+
+                        <br>
+                    <p>
+                        কথা ছিলো সবাই ভোরে উঠে মহেশখালী যাবো কিন্তু আগের রাতের ১৪ ঘন্টা journey করার পর আর কারোই এতো তেল
+                        ছিলোনা 😄 তো সকাল ৬ঃ৩০ টায় ঘুম ভাঙল... ছাদে উঠে কিছুখন ছিল্ল করলাম আর sea r দিকে তাকিয়ে ছিলাম।
+                        এর পর ফ্রেস হয়ে ready হয়ে নাস্তা করে অটো ভাড়া করলাম। কারণ প্ল্যান switch করে ওইদিন ইনানী আর
+                        হিমছড়ি চলে যাই... কিন্তু ২ যায়গাতেই খাই ছ্যাঁকা 😄 হিমছড়িতে পাহাড়ে উঠা বন্ধ (Lockdown এর জন্য।
+                        ২/৩ সপ্তাহ পর খুলতে পারে এমনটাই বললো তারা) আর ইনানীতে যাই জোয়ারের সময় যার কারণে সব পাথর পানির
+                        নিচে ছিলো 😕
+
+                        (Lesson 3 : কোথাও যাওয়ার আগে ভালোভাবে খোজ নিয়ে তারপর যাওয়া উচিৎ :3)
+
+                        তো কিছুক্ষণ photoshoot করে আর বাইক রাইড করে আর লাল কাকড়া দেখে হোটেলের দিকে back করলাম। এরপর নেমে
+                        যাই সাগরে... ২ ঘন্টা বীচে আর ১ ঘন্টা পুলে কাটিয়ে একেকজনের শরীরের ১৩ টা বেজে গেছে 😂 it was fun
+                        though. 😄 তো ফ্রেশ হয়ে লাঞ্চ করে আর বীচে ঘুরে আর উনো খেলে রাত কাটিয়ে দিলাম... 😌
+
+                    </p><br>
+
+                    >> Day 3 (6/10/2020) :
+
+                    <p>
+
+                    সকালে উঠে হোটেল checkout করে আমাদের সবার bag গুলো হোটেলের লকারে রেখে বের হই মহেশখালীর
+                    উদ্দ্যেশ্যে... কক্সবাজার জেটি ঘাট থেকে একটু পরপরই ট্রলার আর স্পীড বোট ছেড়ে যায় মহেশখালীর জন্য...
+                    আমরা ট্রলারে করেই যাই... (যেটা ছিলো ভুল ডিসিশন। দুপুরবেলা রোদে ট্রলারে না যাওয়াই বেটার 😑)
+                    মহেশখালী পৌছে একটু হেটে সামনে গেলেই অটো পাওয়া যায়। আমরা ৬ জনের একটি অটো রিজার্ভ করে চলে যাই
+                    আদিনাথ মন্দির দেখতে। আদিনাথ মন্দির দেখে একটু সামনে চলে যাই আদিনাথ পাহাড়ের একেবারে উপরে... গাছের
+                    ছায়া, খোলা বাতাস, আর পুরো মহেশখালী সাথে সমুদ্রের landscape view আমাদের সব ক্লান্তি দূর করে
+                    দিয়েছিলো... 😌 কিছুক্ষণ সেখানে থেকে আমরা নেমে পড়লাম... সিঁড়ি দিয়ে না নেমে পাহাড় বেয়ে নামলাম
+                    (Adventure 😛)... নিচে নেমে ডাব নিলাম গলা ভিজানোটা দরকার ছিলো তাই 😄 তারপর শুটিং ব্রিজ দেখে
+                    অটোতে করে চলে আসলাম ঘাটে... এবার ট্রলারে আসার মতো এনার্জি ছিলোনা তাই স্পীড বোটে করে আসলাম... 😛
+                    কক্সবাজারে এটাই আমাদের শেষ দিন তাই সবাই যার যার ইচ্ছা মতো কেনাকাটা করতে করতে রাত ৮:৩০ টায় আমরা
+                    হোটেলে আসলাম। ফ্রেশ হয়ে ব্যাগ নিয়ে বাসের টিকেট কেটে আর হিসাব শেষ করে রাত ১০:৩০ টার বাসে উঠে
+                    পরলাম......
+                    </P>
+                </div>
+                <div class="blog__more-images">
+                    <h3 class="section__subtitle">More Images</h3>
+                    <div class="blog__image-grid">
+                        <img src="../assets/img/blog1-1.jpg" alt="Blog Image 1">
+                        <img src="../assets/img/blog1-2.jpg" alt="Blog Image 2">
+                        <img src="../assets/img/blog1-3.jpg" alt="Blog Image 3">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="footer__content grid">
+                <div class="footer__data">
+                    <h3 class="footer__title">BhromonGhuri</h3>
+                    <p class="footer__description">Travel you choose the <br> destination,
+                        we offer you the <br> experience.
+                    </p>
+                    <div>
+                        <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="footer__social">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="https://www.youtube.com/" target="_blank" class="footer__social">
+                            <i class="ri-youtube-fill"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">About</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="../index.html#about" class="footer__link">About Us</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="../index.html#features" class="footer__link">Features</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="blog.html" class="footer__link">New & Blog</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">Company</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="../team.html" class="footer__link">Team</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="../index.html#pricing" class="footer__link">Plan y Pricing</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="../index.html#membership" class="footer__link">Become a member</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">Support</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="../index.html#faqs" class="footer__link">FAQs</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="../index.html#support" class="footer__link">Support Center</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="../index.html#contact" class="footer__link">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer__rights">
+                <p class="footer__copy">&#169; 2025 BhromonGhuri. All rigths reserved.</p>
+                <div class="footer__terms">
+                    <a href="../terms&agreements.html" class="footer__terms-link">Terms & Agreements</a>
+                    <a href="../index.html#privacy" class="footer__terms-link">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line scrollup__icon"></i>
+    </a>
+
+    <!--=============== SCROLL REVEAL===============-->
+    <script src="../assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="../assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="../assets/js/main.js"></script>
+</body>
+
+</html>
